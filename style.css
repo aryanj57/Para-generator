@@ -1,0 +1,54 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(45,45,45);
+}
+
+.container{
+    width: 80%;
+    background-color: white;
+    min-height: 100vh;
+    margin: auto;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+
+.container h1{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#numOfwords{
+    background-color: white;
+    color: rgb(74, 74, 74);
+    border-radius: 5px;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 10px;
+    margin-top: 20px;
+    width: 50%;
+    outline: none;
+}
+
+button{
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: rgb(9, 170, 79);
+}
+.paras{
+    background-color: rgb(216, 216, 216);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
